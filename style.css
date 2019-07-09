@@ -1,0 +1,27 @@
+#start, #task-container, #done {
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	width: 100vw;
+}
+
+#start div, #done div {
+	height: 200px;
+	width: 200px;
+}
+
+#task {
+	display: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	text-align: center;
+}
+
+#task.show {
+	display: block;
+}
+
+#task-container.hide {
+	display: none;
+}
